@@ -18,6 +18,7 @@ Se irán añadiendo funcionalidades como la tecla "C" para limpiar, botón de bo
 
 
 ## 🧠 Estructura del proyecto
+´´´
 
 DevCalculator/
 ├── index.html
@@ -26,6 +27,8 @@ DevCalculator/
 ├── js/
 │   └── script.js
 └── README.md
+
+´´´
 
 ## 🛠️ Tecnologías utilizadas
 
