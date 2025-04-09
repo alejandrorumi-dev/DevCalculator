@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DevCalculator</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-	<main id="DevCalculator">
-		<div class="DevCalculator__container">
-			
+	<main id="DevCalculator__container">
+		<div class="DevCalculator">
+			<div class="DevCalculator__display" id="display">0</div>
+			<div class="DevCalculator__buttons">
+				<button class="btn__delete">⌫</button>
+
+				<button class="btn">7</button>
+				<button class="btn">8</button>
+				<button class="btn">7</button>
+				<button class="btn__operator">/</button>
+
+				<button class="btn">4</button>
+				<button class="btn">5</button>
+				<button class="btn">6</button>
+				<button class="btn__operator">*</button>
+
+				<button class="btn">1</button>
+				<button class="btn">2</button>
+				<button class="btn">3</button>
+				<button class="btn__operator">-</button>
+
+				<button class="btn">0</button>
+				<button class="btn">.</button>
+				<button class="btn__equal">=</button>
+				<button class="btn__operator">+</button>
+
+				<button class="btn__clear">C</button>
+			</div>
 		</div>
 	</main>
+	<script src="js/script.js"></script>
 </body>
+
 </html>
