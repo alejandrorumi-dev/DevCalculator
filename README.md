@@ -16,21 +16,16 @@ Calculadora web desarrollada principalmente con HTML, CSS y JavaScript. Este pro
 El diseño visual está siendo trabajado con CSS personalizado, mientras que la lógica se está implementando con JavaScript puro.  
 Se irán añadiendo funcionalidades como la tecla "C" para limpiar, botón de borrar, y posiblemente mejoras en la interfaz.
 
----
 
 ## 🧠 Estructura del proyecto
 
-DevCalculator/ 
-├── assets/  
-	├── css/ 
-		└── style.css --> Estilos principales de la calculadora 
-	├── js/
-		└── script.js --> Lógica de funcionamiento (JavaScript)
-|		 
-├── index.html --> Página principal con estructura HTML 
-└── README.md --> Descripción general del proyecto
-
----
+DevCalculator/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+└── README.md
 
 ## 🛠️ Tecnologías utilizadas
 
