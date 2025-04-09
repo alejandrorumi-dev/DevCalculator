@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DevCalculator</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -13,33 +13,41 @@
 		<div class="DevCalculator">
 			<div class="DevCalculator__display" id="display">0</div>
 			<div class="DevCalculator__buttons">
+
+				<!--Eliminar número-->
 				<button class="btn__delete">⌫</button>
 
+				<!--Primera fila-->
+				<button class="btn__function">C</button>
+				<button class="btn__function">±</button>
+				<button class="btn__function">%</button>
+				<button class="btn __operator">÷</button>
+
+				<!-- Segunda fila -->
 				<button class="btn">7</button>
 				<button class="btn">8</button>
-				<button class="btn">7</button>
-				<button class="btn__operator">/</button>
+				<button class="btn">9</button>
+				<button class="btn__operator">x</button>
 
+				<!-- Tercera fila -->
 				<button class="btn">4</button>
 				<button class="btn">5</button>
 				<button class="btn">6</button>
-				<button class="btn__operator">*</button>
+				<button class="btn__operator">-</button>
 
+				<!-- Cuarta fila -->
 				<button class="btn">1</button>
 				<button class="btn">2</button>
 				<button class="btn">3</button>
-				<button class="btn__operator">-</button>
-
-				<button class="btn">0</button>
-				<button class="btn">.</button>
-				<button class="btn__equal">=</button>
 				<button class="btn__operator">+</button>
 
-				<button class="btn__clear">C</button>
+				<!-- Quinta fila -->
+				<button class="btn btn__zero">0</button>
+				<button class="btn__decimal">.</button>
+				<button class="btn__equal">=</button>
 			</div>
 		</div>
 	</main>
 	<script src="js/script.js"></script>
 </body>
-
 </html>
