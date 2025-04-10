@@ -142,6 +142,11 @@
   
   /* Media queries para responsividad */
   @media screen and (max-width: 480px) {
+	#DevCalculator__container {
+	width: 80%;
+	margin: 0 auto;
+	}
+
 	.DevCalculator {
 	  padding: 15px;
 	}
